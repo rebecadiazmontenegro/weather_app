@@ -1,0 +1,50 @@
+h3 {
+  font-size: 28px;
+  font-weight: var(--font-medium);
+  margin: 16px 16px;
+}
+
+p {
+  font-size: 20px;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  border-radius: 16px;
+  box-sizing: border-box;
+  width: 350px;
+  margin-bottom: 32px;
+  box-shadow: 5px 5px 10px rgb(146, 146, 146);
+}
+
+.dataWeather {
+  display: flex;
+  flex-direction: column;
+  border-bottom-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  padding: 8px 16px;
+  color: var(--white);
+  background-color: var(--ink-black);
+}
+
+.nameIcon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  margin: 24px 0px;
+}
+
+@media (min-width: 1400px) {
+  li {
+    width: 300px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+}
