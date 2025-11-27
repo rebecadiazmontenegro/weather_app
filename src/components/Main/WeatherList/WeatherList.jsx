@@ -3,7 +3,7 @@ import axios from "axios";
 import WeatherCard from "./WeatherCard/WeatherCard";
 import { v4 as uuidv4 } from "uuid";
 
-import "./WeatherList.css";
+import './WeatherList.css'
 
 const WeatherList = () => {
   const apiKey = import.meta.env.VITE_MY_API_KEY;
@@ -44,10 +44,7 @@ const WeatherList = () => {
       <article className="cityForm">
         <h1>Busca tu ciudad</h1>
         <form className="citySeach" onSubmit={handleSubmit}>
-          <input
-            name="city"
-            placeholder="Inserta aquí el nombre de una ciudad"
-          />
+          <input name="city" placeholder="Inserta aquí el nombre de una ciudad"/>
           <button className="seachBoton">Buscar</button>
         </form>
       </article>

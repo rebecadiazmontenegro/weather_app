@@ -6,6 +6,7 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: var(--ink-black);
+    box-sizing: border-box;
     color: var(--white);
     padding: 16px;
     z-index: 999;       
